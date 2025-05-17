@@ -4,6 +4,14 @@ import Player from "./Player";
 
 const musicaDia1 = [
   {
+    label: "Coldplay - WE PRAY (TINI Version) (Official)",
+    url: "https://www.youtube.com/watch?v=VlSEIa1zubs",
+  },
+  {
+    label: "The Lord's Prayer - Matt Maher (Lyric Video)",
+    url: "https://www.youtube.com/watch?v=v4Kp6S5smnE",
+  },
+  {
     label: "Cançó «Beneiré el Senyor», Worship.cat",
     url: "https://www.youtube.com/watch?v=fsj_msYI1CI",
   },
@@ -44,5 +52,5 @@ export default function Musica({ day }) {
   } else if (day == 3) {
     media = musicaDia3;
   }
-  return <Player title={"Música"} media={media} />;
+  return <Player title={"Música"} day={day} media={media} />;
 }
