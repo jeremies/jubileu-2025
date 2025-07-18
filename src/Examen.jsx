@@ -1,6 +1,7 @@
 import * as React from "react";
 import Typography from "@mui/material/Typography";
 import { Box } from "@mui/material";
+import ReactPlayer from "react-player";
 
 export default function Examen() {
   return (
@@ -101,6 +102,13 @@ export default function Examen() {
       falsedats sobre el seu comportament, revelant sense necessitat els seus
       defectes greus o fent ressò a xafarderies? He reparat el mal que he causat
       amb aquestes converses?
+      <ReactPlayer
+        style={{ marginTop: "30px" }}
+        width="80vw"
+        height={"calc(2 * (80vw) /3)"}
+        controls
+        url={"https://www.youtube.com/watch?v=tKqG-gt-9g0"}
+      />
     </div>
   );
 }
