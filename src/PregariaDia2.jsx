@@ -138,6 +138,80 @@ export default function PregariaDia2() {
         <br></br>
         Pere Casaldàliga
       </Typography>
+
+      <h2>
+        <strong>Pregàries dels Fidels:</strong>
+      </h2>
+
+      <p>
+        <em>
+          Amics, en aquest dia del nostre pelegrinatge i amb el Jubileu ben
+          engegat, sentim Déu molt a prop i li presentem les nostres peticions.
+        </em>
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            Pel Papa Lleó: que el Senyor el guiï sempre i el faci sentir la seva
+            proximitat en el seu servei a tota l'Església.{" "}
+            <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Pel nostre bisbe Sergi: que Déu l'acompanyi de ben a prop en la seva
+            missió de pastor i ens ajudi a tots a sentir-lo proper.{" "}
+            <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Per l'Església, vivint el Jubileu: que sigui un temps de renovació
+            on tothom senti la pau de Déu. <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Pels qui pelegrinem: que la fraternitat ens uneixi i sentim Déu
+            caminant amb nosaltres. <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Pels qui ho passen malament: que la creu de Jesús sigui la seva
+            esperança i sentin Déu al seu costat.{" "}
+            <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Pels joves pelegrins: que la nostra fe creixi com el gra de
+            mostassa, ben a prop de Déu. <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Perquè la fe ens transformi: que l'amor de Déu actuï en nosaltres i
+            ho canviï tot des de dins. <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+      </ul>
+
+      <p>
+        <strong>
+          Déu, que ets tan a prop nostre i ens guies com a "Pelegrins en
+          l'Esperança", escolta el que et demanem. Fes que aquest pelegrinatge i
+          el Jubileu ens apropin més a Tu i ens facin créixer en el teu amor.
+          Per Jesús, amic nostre. Amén.
+        </strong>
+      </p>
     </div>
   );
 }

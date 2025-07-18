@@ -119,6 +119,65 @@ export default function PregariaDia1() {
         <br />
         «Vocación», per José María R. Olaizola sj. Cf. Rezando voy.
       </Typography>
+
+      <h2>
+        <strong>Pregàries dels Fidels:</strong>
+      </h2>
+
+      <p>
+        <em>
+          Germans i germanes, en aquest camí de pelegrinatge i amb la gràcia del
+          Jubileu que estem vivint, presentem les nostres peticions a Déu Pare.
+        </em>
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            Per l'Església, immersa en el Jubileu 2025: que sigui un temps de
+            renovació i de pau amb Déu i amb els altres.{" "}
+            <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Pels pelegrins de tot el món i per nosaltres: que la solidaritat i
+            la fraternitat ens uneixin en aquest camí.{" "}
+            <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Pels que passen dificultats: que la Creu de Crist sigui la seva
+            esperança i àncora. <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Pels joves pelegrins: que cada pas transformi la nostra fe com el
+            gra de mostassa. <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Perquè la fe en Jesús creixi en nosaltres com el llevat:
+            transformant la nostra vida des de dins.{" "}
+            <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+      </ul>
+
+      <p>
+        <strong>
+          Oh Déu, que ens guies com "Pelegrins en l'Esperança", escolta les
+          nostres pregàries. Que aquest pelegrinatge i el Jubileu ens facin
+          créixer en el teu amor. Per Crist Senyor Nostre. Amén.
+        </strong>
+      </p>
     </div>
   );
 }

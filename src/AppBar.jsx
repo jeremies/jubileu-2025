@@ -23,13 +23,24 @@ export default function AppBar({ day, setDay }) {
     setDay(d);
     handleCloseOptions();
   };
+
+  let realDay = 0;
+  if (day == 1) {
+    realDay = 28;
+  } else if (day == 2) {
+    realDay = 29;
+  } else if (day == 3) {
+    realDay = 30;
+  } else if (day == 4) {
+    realDay = 31;
+  }
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBarMui position="fixed">
         <Toolbar>
           <Icon className="icon" />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Jubileu 2025 - Dia {day}
+            Jubileu 2025 - Dia {realDay}
           </Typography>
           <IconButton
             size="large"
@@ -44,9 +55,10 @@ export default function AppBar({ day, setDay }) {
             open={optionsOpen}
             onClose={handleCloseOptions}
           >
-            <MenuItem onClick={() => setDayAndClose(1)}> Dia 1</MenuItem>
-            <MenuItem onClick={() => setDayAndClose(2)}> Dia 2</MenuItem>
-            <MenuItem onClick={() => setDayAndClose(3)}> Dia 3</MenuItem>
+            <MenuItem onClick={() => setDayAndClose(1)}> Dia 28</MenuItem>
+            <MenuItem onClick={() => setDayAndClose(2)}> Dia 29</MenuItem>
+            <MenuItem onClick={() => setDayAndClose(3)}> Dia 30</MenuItem>
+            <MenuItem onClick={() => setDayAndClose(4)}> Dia 31</MenuItem>
           </Menu>
         </Toolbar>
       </AppBarMui>

@@ -160,6 +160,79 @@ export default function PregariaDia3() {
         Malvi Baldellou. Cf. Rezando voy
         <br />
       </Typography>
+
+      <h2>
+        <strong>Pregàries dels Fidels:</strong>
+      </h2>
+
+      <p>
+        <em>
+          Germans i germanes, des de Florència, amb l'alegria del Jubileu que
+          estem vivint i sentint la presència de Déu tan a prop, elevem les
+          nostres súpliques amb confiança.
+        </em>
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            Pel Sant Pare i pel nostre bisbe Sergi: que el Senyor els guiï en el
+            seu servei i els faci sentir la seva proximitat en la missió
+            d'anunciar el tresor del Regne. <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Per l'Església, que celebra el Jubileu: que l'experiència de la
+            presència transformadora de Déu l'ompli d'una alegria contagiosa per
+            als altres. <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Pels qui passen per la tribulació, especialment en països pobres o
+            en guerra: que sentin la mà de Déu que els enforteix en la
+            constància i els condueix a l'esperança.{" "}
+            <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Per nosaltres, pelegrins en el camí: que el missatge de l'Any Sant
+            ens impulsi a ser llavors fecundes d'esperança mitjançant gestos
+            senzills com un somriure, un gest d'amistat o un servei gratuït.{" "}
+            <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Perquè la mort i resurrecció de Jesús, el nostre tresor més gran,
+            sigui el centre de la nostra esperança i ens doni la certesa d'una
+            vida nova i eterna. <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Perquè la nostra esperança, fonamentada en l'amor de Déu vessat en
+            els nostres cors per l'Esperit Sant, mai no ens defraudi, fins i tot
+            en les dificultats. <strong>Preguem al Senyor.</strong>
+          </p>
+        </li>
+      </ul>
+
+      <p>
+        <strong>
+          Déu bondadós, que ens has revelat el tresor incalculable del teu amor
+          i ens has donat l'esperança que no defrauda, acull amb afecte les
+          nostres pregàries. Fes-nos, en aquest Jubileu, testimonis valents de
+          la teva presència i del teu Regne. Per Crist Senyor Nostre. Amén.
+        </strong>
+      </p>
     </div>
   );
 }
