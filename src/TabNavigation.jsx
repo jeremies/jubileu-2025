@@ -7,6 +7,7 @@ import {
   Toolbar,
 } from "@mui/material";
 import HikingIcon from "@mui/icons-material/Hiking";
+import PsychologyAltIcon from "@mui/icons-material/PsychologyAlt";
 import LyricsIcon from "@mui/icons-material/Lyrics";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import ChurchIcon from "@mui/icons-material/Church";
@@ -28,7 +29,7 @@ export default function TabNavigation() {
             return 1;
           case "/media":
             return 2;
-          case "/ruta":
+          case "/examen":
             return 3;
           case "/canconer":
             return 4;
@@ -42,7 +43,7 @@ export default function TabNavigation() {
     if (newValue === 0) navigate("/");
     if (newValue === 1) navigate("/musica");
     if (newValue === 2) navigate("/media");
-    if (newValue === 3) navigate("/ruta");
+    if (newValue === 3) navigate("/examen");
     if (newValue === 4) navigate("/canconer");
   };
 
@@ -63,7 +64,7 @@ export default function TabNavigation() {
           <BottomNavigationAction label="Pregària" icon={<ChurchIcon />} />
           <BottomNavigationAction label="Música" icon={<MusicNoteIcon />} />
           <BottomNavigationAction label="Podcasts" icon={<PlayArrowIcon />} />
-          <BottomNavigationAction label="Ruta" icon={<HikingIcon />} />
+          <BottomNavigationAction label="EC" icon={<PsychologyAltIcon />} />
           <BottomNavigationAction label="Cançoner" icon={<LyricsIcon />} />
         </BottomNavigation>
       </Box>
