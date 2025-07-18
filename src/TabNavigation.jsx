@@ -27,7 +27,7 @@ export default function TabNavigation() {
             return 0;
           case "/musica":
             return 1;
-          case "/media":
+          case "/itinerari":
             return 2;
           case "/examen":
             return 3;
@@ -42,7 +42,7 @@ export default function TabNavigation() {
     setValue(newValue);
     if (newValue === 0) navigate("/");
     if (newValue === 1) navigate("/musica");
-    if (newValue === 2) navigate("/media");
+    if (newValue === 2) navigate("/itinerari");
     if (newValue === 3) navigate("/examen");
     if (newValue === 4) navigate("/canconer");
   };
@@ -63,7 +63,7 @@ export default function TabNavigation() {
         >
           <BottomNavigationAction label="Pregària" icon={<ChurchIcon />} />
           <BottomNavigationAction label="Música" icon={<MusicNoteIcon />} />
-          <BottomNavigationAction label="Podcasts" icon={<PlayArrowIcon />} />
+          <BottomNavigationAction label="Itinerari" icon={<HikingIcon />} />
           <BottomNavigationAction label="EC" icon={<PsychologyAltIcon />} />
           <BottomNavigationAction label="Cançoner" icon={<LyricsIcon />} />
         </BottomNavigation>

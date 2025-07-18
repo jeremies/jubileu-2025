@@ -12,6 +12,7 @@ import Media from "./Media.jsx";
 import Ruta from "./Ruta.jsx";
 import Examen from "./Examen.jsx";
 import Canconer from "./Canconer.jsx";
+import Itinerari from "./Itinerari.jsx";
 
 const DAY = "day";
 
@@ -44,6 +45,7 @@ function PaperMain() {
           <Routes>
             <Route path="/" element={<Pregaria day={day} />} />
             <Route path="/musica" element={<Musica day={day} />} />
+            <Route path="/itinerari" element={<Itinerari day={day} />} />
             <Route path="/media" element={<Media day={day} />} />
             <Route path="/ruta" element={<Ruta day={day} />} />
             <Route path="/examen" element={<Examen />} />
