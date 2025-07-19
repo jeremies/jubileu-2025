@@ -7,6 +7,7 @@ import FormControl from "@mui/material/FormControl";
 import NativeSelect from "@mui/material/NativeSelect";
 import { Typography } from "@mui/material";
 import Logo from "./logo.svg?react";
+import LogoTortosa from "./logo-tortosa.jpeg";
 import "./Player.css";
 export default function Player({ title, media }) {
   const [url, setUrl] = React.useState(media[0].url);
@@ -57,12 +58,15 @@ export default function Player({ title, media }) {
       <Box
         sx={{
           display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
           marginTop: 2,
         }}
       >
-        <Logo className="logo" />
+        <Box sx={{ flex: "50%", padding: "5px" }}>
+          <Logo className="logo" style={{ width: "100%", height: "100%" }} />
+        </Box>
+        <Box sx={{ flex: "50%", padding: "5px" }}>
+          <img style={{ width: "100%", height: "100%" }} src={LogoTortosa} />
+        </Box>
       </Box>
       {title == "Música" && url.includes("v4Kp6S5smnE") /* mattmaher */ && (
         <Accordion>
