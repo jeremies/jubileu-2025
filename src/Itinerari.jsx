@@ -35,9 +35,9 @@ export default function Itinerari({ day }) {
             neix perfectament el lloc que els alberga.
             <strong>
               {" "}
-              Celebració de Missa. Per la tarda a les 16.30 hrs.- continuación
-              del viatge amb direcció a Ronta. Arribada a les 19.30 hrs.- sopar
-              i allotjament inclós.
+              Celebració de Missa. Missa a les 15.00 .- al Duomo de Pisa. Per la
+              tarda a les 16.30 hrs.- continuación del viatge amb direcció a
+              Ronta. Arribada a les 19.30 hrs.- sopar i allotjament inclós.
             </strong>
           </Typography>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
@@ -62,7 +62,7 @@ export default function Itinerari({ day }) {
           <Typography variant="p" sx={{ marginBottom: 3 }} gutterBottom>
             <strong>
               Esmorzar a l’hotel . Sortida a les 07.30 hrs.-amb direcció a San
-              Gimigna- no. Arribada a les 09.30 hrs., celebració de Missa
+              Gimigna- no. Arribada
             </strong>{" "}
             i temps lliure per visitar aques- ta població. Una bella ciutat
             enclavada entre els pujols de Siena i els assole- llats pujols de la
@@ -71,8 +71,9 @@ export default function Itinerari({ day }) {
             estimada perla toscana. Important visi- tar el seu centre històric i
             les seves torres, la plaça del Duomo…
             <strong>
-              A les 12.00 hrs.- sortida amb dirección a Siena. Arribada al
-              voltant de les 14.30 hrs.- Dinar lliure
+              A les 11.30 hrs- sortida amb dirección a Siena. Arribada al
+              voltant de les 14.00 hrs.- Dinar i a les 15.30hrs.- Missa al Duomo
+              de Siena.
             </strong>{" "}
             i temps lliure per la visita de Siena. Siena, encantadora ciutat al
             cor de la Toscana, conserva intacte el seu centre històric medieval.
